@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-br from-blue-50 to-gray-100 text-gray-800;
+}
+
+::-moz-selection {
+  @apply bg-blue-200;
+}
+
+::selection {
+  @apply bg-blue-200;
+}
